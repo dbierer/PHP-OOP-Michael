@@ -105,10 +105,11 @@ Blitzcrank used Static Field. Ultimate!
 Q3: Create something which is realistic and appropriate to a current or future application for your domain.
 A3: 
 
-class Car {
+class automobile {
   
     public $make; 
-    private $model; 
     protected $year; 
+    protected $color;
+    private $model; 
 
 }
