@@ -1,0 +1,5 @@
+Q1: Identify the namespaces used
+A1: namespace Zend/workspaces/DefaultWorkspace/orderapp
+
+Q2: How is autoloading initiated?
+A2: The spl_autoload_register() function is utilized to implement one or more autoloaders. This function is used accordingly with the 'require' function, then the autoload directory is created in the .json file, and finally, users execute the shell script at the project root to configure the autoloader.
